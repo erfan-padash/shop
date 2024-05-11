@@ -158,10 +158,10 @@ STORAGES = {
 
 }
 
-AWS_S3_ACCESS_KEY_ID = 'd038d1e3-2598-4c0e-909e-324188422960'
-AWS_SECRET_ACCESS_KEY = 'e2b7024cba3fe44224301bab0358d1c1c1c7c55fbfe0033db2c7ff4c41df40fe'
-AWS_S3_ENDPOINT_URL = 'https://s3.ir-thr-at1.arvanstorage.com'
-AWS_STORAGE_BUCKET_NAME = 'erfanpdh'
+AWS_S3_ACCESS_KEY_ID = '*******************'
+AWS_SECRET_ACCESS_KEY = '********************************'
+AWS_S3_ENDPOINT_URL = '*********************************'
+AWS_STORAGE_BUCKET_NAME = 'e'
 AWS_SERVICE_NAME = 's3'
 AWS_S3_FILE_OVERWRITE = False
 AWS_LOCAL_STORAGE = f'{BASE_DIR}/aws/'
