@@ -1,4 +1,8 @@
-import datetime
+
+        response = api.sms_send(params)
+        print(re
+        response = api.sms_send(params)
+        print(reimport datetime
 from pytz import timezone
 from django.shortcuts import render, redirect
 from django.views import View
@@ -78,7 +82,6 @@ class UserRegisterVerifyCodeView(View):
                 return redirect('accounts:user_register')
             else:
                 messages.error(request, 'your code is wrong', 'danger')
-                return render(request, self.template_name, {'form': form})
         return render(request, self.template_name, {'form': form})
 
 
